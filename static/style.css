@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Light Theme */
+  body {
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  /* Dark Theme */
+  body.bg-dark {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  body.bg-dark .navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+  }
+  
+  body.bg-dark footer {
+    background-color: #212529;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #00b894;
+  }
+  
+  /* Hero Section */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-center h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .text-center p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  .text-center .btn {
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border-radius: 30px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  footer a:hover {
+    color: #00b894;
+  }
+  
+  /* Cards & Content */
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #00b894;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+  }
+  
+  ul.list-group {
+    margin-top: 15px;
+  }
+  
+  ul.list-group-item {
+    border: none;
+    font-size: 1.1rem;
+    color: #212529;
+  }
+  
+  /* Interactive Buttons */
+  button {
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #17a2b8;
+  }
+  
+  #theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  #theme-toggle:hover {
+    color: #00b894;
+  }
+  .hero {
+    height: 100vh;
+    background: linear-gradient(120deg, #0984e3, #00cec9);
+    padding: 60px 20px;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero .btn {
+    font-size: 1.25rem;
+  }
+  
+  section {
+    scroll-margin-top: 60px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li::before {
+    content: '✔️ ';
+    margin-right: 8px;
+  }
+  

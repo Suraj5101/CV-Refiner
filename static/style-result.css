@@ -1,0 +1,99 @@
+/* General Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f9ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Card Styling */
+  .result-card {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-card h4 {
+    font-weight: 600;
+    color: #007b5e;
+  }
+  
+  /* Skills Found List */
+  .list-group-item-success {
+    background-color: #e6f9f0;
+    color: #007b5e;
+    font-weight: 500;
+  }
+  
+  .list-group-item.text-danger {
+    font-weight: bold;
+    background-color: #ffe6e6;
+  }
+  
+  /* Resume Text Preview */
+  pre {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 0.95rem;
+  }
+  
+  /* Feedback Section */
+  .feedback-section {
+    margin-top: 40px;
+  }
+  
+  .feedback-section h5 {
+    color: #004085;
+    font-weight: 600;
+  }
+  
+  .feedback-section ul {
+    padding-left: 20px;
+  }
+  
+  .feedback-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #0056d2;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #003c99;
+  }
+  
+  /* Highlight Section */
+  .ats-warning {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 15px;
+    border-radius: 8px;
+    color: #856404;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  
+  /* Section Titles */
+  h5 {
+    margin-top: 30px;
+    color: #343a40;
+    font-weight: 600;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    pre {
+      font-size: 0.85rem;
+    }
+  }
+  

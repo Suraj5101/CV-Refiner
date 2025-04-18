@@ -1,0 +1,71 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7fbff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for About Section */
+  .about-container {
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Section Title */
+  .about-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  /* Team Members List */
+  .team-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .team-list li {
+    background-color: #f0f7ff;
+    border-left: 5px solid #007bff;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .team-list li:hover {
+    background-color: #e1efff;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  }
+  
+  /* Member Roles Highlight */
+  .team-list li::first-line {
+    font-weight: bold;
+    color: #003d66;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .team-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .about-container {
+      padding: 20px;
+      margin: 20px;
+    }
+  }
+  
